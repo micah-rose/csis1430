@@ -1,0 +1,38 @@
+CSS Grids
+
+- not supported in all browsers yet, it is fairly new
+- track refers to both rows and columns
+- grid gap is a gap between the rows that separate the columns and rows
+- use "display: grid" instead of "display: block"
+
+grid-template-columns: 25% 25% 25% 25% (creates 4 columns at 25% size)
+grid-column-gap: 10px
+grid-row-gap: 10px
+grid-gap: 10px (does both column and row)
+
+1fr = 1 fraction (fraction of the width of the div)
+2fr = 2 fractions (twice as big)
+- can use decimals with fractions
+- goes with grid-template-columns:
+- repeat(5, 1fr) (repeats 1fr 5 times)
+
+grid-auto-rows: 200px (automatically sets rows to 200px)
+grid-auto-rows: minmax(400px, auto) (can be used to readjust divs text size)
+grid-template-rows: repeat(3, minmax(400px, auto))
+
+nth-child(1) = first child
+nth-child(5) = fifth child 
+
+grid-column: 1/3 (sets div to go from line 1 to line 3)
+grid-row: 5/7 (sets div to go from line 5 to line 7)
+
+- you can put grids inside other divs (so a grid within a grid)
+
+grid-area: name
+grid-template-area: 
+"name name name name"
+"aside main main main"
+"nav main main main"
+"section section section section"
+"footer footer footer footer";
+- make sure to assign columns and rows prior to using area feature

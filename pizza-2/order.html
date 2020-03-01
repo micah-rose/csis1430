@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizza</title>
+    <link href="css/pizza.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-nav">
+            <nav>
+                <ul>
+                    <li><a href="/pizza-2/index.html">Home</a></li>
+                    <li><a href="/pizza-2/contact.html">Contact</a></li>
+                    <li><a href="/pizza-2/about.html">About</a></li>
+                    <li><a href="/pizza-2/order.html">Order</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br>
+        <div class="main">
+            <h1>Hungry? We know... That's why you're here!!</h1>
+            <div class="order-p">
+                <p>As you can see, we weren't lyin'. Just look at all these options you have to choose from!! Let your
+                    culinary creativity flow and design the most perfect pie that will ignite an explosion of
+                    flavor in your mouth.</p>
+            </div>
+            <div class="pizza-i">
+                <img src="/pizza-2/img/pizza-meat.png">
+                <img src="/pizza-2/img/pizza-ingredients.png">
+                <img src="/pizza-2/img/pizza-vegetable.png">
+            </div>
+            <br>
+            <h1>Make Your Pizza:</h1>
+            <form method="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+                <h2>Your Meats:</h2>
+                <input type="checkbox" name="toppings[]" value="Chicken">Chicken
+                <input type="checkbox" name="toppings[]" value="Ham">Ham
+                <input type="checkbox" name="toppings[]" value="Sausage">Sausage
+                <input type="checkbox" name="toppings[]" value="Bacon">Bacon
+                <input type="checkbox" name="toppings[]" value="Pulled Pork">Pulled Pork
+                <input type="checkbox" name="toppings[]" value="Salmon">Salmon
+                <input type="checkbox" name="toppings[]" value="Eggs">Eggs
+                <input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni
+
+                <h2>Your Cheese:</h2>
+                <input type="checkbox" name="toppings[]" value="Cheddar">Cheddar
+                <input type="checkbox" name="toppings[]" value="Mozzarella">Mozzarella
+                <input type="checkbox" name="toppings[]" value="Provolone">Provolone
+                <input type="checkbox" name="toppings[]" value="Gouda">Gouda
+                <input type="checkbox" name="toppings[]" value="Parmesan">Parmesan
+                <input type="checkbox" name="toppings[]" value="Swiss">Swiss
+                <input type="checkbox" name="toppings[]" value="Mix Em">Mix 'Em
+
+                <h2>Your Veggies:</h2>
+                <input type="checkbox" name="toppings[]" value="Black Olives">Black Olives
+                <input type="checkbox" name="toppings[]" value="Peppers">Bell Peppers
+                <input type="checkbox" name="toppings[]" value="Red Onion">Red Onion
+                <input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms
+                <input type="checkbox" name="toppings[]" value="Cilantro">Cilantro
+                <input type="checkbox" name="toppings[]" value="Spinach">Spinach
+                <input type="checkbox" name="toppings[]" value="Jalepeno">Jalepeno
+
+                <h2>Your Crust:</h2>
+                <input type="radio" name="crust" value="Thin">Thin
+                <input type="radio" name="crust" value="Regular">Regular
+                <input type="radio" name="crust" value="Pan">Pan
+                <input type="radio" name="crust" value="Stuffed Crust">Stuffed Crust
+                <br>
+                <h2>Your Size:</h2>
+                <select name="size">
+                    <option value="Large">Large</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Small">Small</option>
+                </select>
+                <h2>Your Style:</h2>
+                <textarea placeholder="Baked, toasted, smoked, or deep fried?" name="comments"></textarea>
+                <br>
+                <h2>Tell us who you are!!</h2>
+                <input placeholder="First Name" name="first" type="text">
+                <input placeholder="Last Name" name="last" type="text">
+                <br>
+                <input placeholder="Address 1" name="add1" type="text">
+                <input placeholder="Address 2" name="add2" type="text">
+                <br>
+                <input placeholder="City" name="city" type="text">
+                <input placeholder="State" name="state" type="text">
+                <br>
+                <input placeholder="Zip Code" name="zip" type="text">
+                <br>
+                <input placeholder="Email" name="email" type="text">
+                <br>
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

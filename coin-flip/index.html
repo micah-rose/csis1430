@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coin Flip</title>
+    <link type="text/css" rel="stylesheet" href="css/coin-flip.css" />
+    <script src="js/coin-flip.js"></script>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="checkbox">
+        <input onchange="multiFlips();" id="chkbx" type="checkbox" />Run Multiple Flips<br />
+      </div>
+      <div class="text-box">
+        <form><input id="multi-flip" type="text" name="fname" value="10" readonly/><br /></form>
+      </div>
+    </div>
+    <div class="middle-space"><img id="coin-image" src="img/question.png" /></div>
+    <div class="bottom-bar">
+      <form >
+        <div id="heads">Heads: <input id="heads-box" type="text" name="fname" readonly/><br /></div>
+        <div id="tails">Tails: <input id="tails-box" type="text" name="lname" readonly/><br /></div>
+      </form>
+      <button onclick="flipCoin();" type="button">Flip</button> 
+      <button onclick="resetFlips();" type="button">Reset</button>
+    </div>
+  </body>
+</html>

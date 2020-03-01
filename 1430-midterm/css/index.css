@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-image: url("/1430-midterm/img/bkgrnd.jpg");
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+  width: 400px;
+  margin: 5px 10px;
+  border: 15px solid black;
+  border-radius: 10px;
+  display: block;
+  float: left;
+}
+
+div[class^="group-"] div {
+  clear: left;
+  overflow: hidden;
+  margin: 15px;
+}
+
+nav {
+  background-color: #056f5f;
+}
+
+nav ul li a,
+nav ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+nav ul li a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: gainsboro;
+}
+
+nav ul li a:hover {
+  color: gray;
+  font-size: 150%;
+}
+
+h1 {
+  margin: 5px;
+  font-size: 75px;
+  color: white;
+  text-shadow: 6px 2px #056f5f;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.main-content {
+  padding: 15px;
+  width: 1000px;
+  margin: 20px auto;
+  background-color: gainsboro;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.group-2 div,
+.group-3 div {
+  display: none;
+}

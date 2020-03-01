@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  background-image: url("/mad-lib/img/mad-bkgrnd.jpg");
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  margin: 15px 0px;
+  color: whitesmoke;
+  font-size: 80px;
+  background-color: black;
+  text-align: center;
+}
+
+.main-content {
+  margin: 15px 130px;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: gray;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+p {
+  margin: 20px;
+  font-size: 28px;
+  text-align: justify;
+}
+
+img {
+  float: left;
+  width: 375px;
+  height: auto;
+}

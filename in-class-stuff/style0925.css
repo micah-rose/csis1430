@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu li {
+  display: inline-block;
+  padding-top: 5px;
+  /*border: 1px solid red;*/
+}
+
+ul.menu {
+  text-align: center;
+  background-color: goldenrod;
+}
+
+ul.menu li a {
+  /*border: 1px solid green;*/
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Tahoma;
+  color: black;
+}
+
+ul.menu li a:hover,
+a.active {
+  color: red;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+
+h1 {
+  padding-top: 10px;
+}

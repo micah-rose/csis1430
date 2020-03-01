@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+  border: 10px solid purple;
+}
+
+.sub-content {
+  background-color: orange;
+  padding: 10px;
+  margin: 5px;
+  border: 10px dotted;
+}

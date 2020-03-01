@@ -1,0 +1,180 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Tahoma;
+}
+
+h1 {
+  color: #ed5836;
+  background-color: #f0d55c;
+  border: 7px solid black;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.zoo {
+  color: black;
+  font-size: 15px;
+  padding: 75px;
+  display: flex;
+  align-items: center;
+  width: 675px;
+  float: left;
+}
+
+.logo {
+  float: left;
+  height: 375px;
+  width: 375px;
+  margin-left: -200px;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+.animals-all {
+  clear: left;
+  background-color: #f3d59c;
+  border: 10px dotted #585b5c;
+  padding: 50px;
+  margin: 50px;
+}
+
+.animals-farm {
+  display: flex;
+  justify-content: left;
+}
+
+.animals-farm2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.animals-forest {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.animals-safari {
+  display: flex;
+  align-items: center;
+}
+
+.goat {
+  background-color: #9edc9a;
+  border: 10px dashed #4b3a2a;
+  padding: 50px;
+  margin: 100px 0px 0px 0px;
+  height: 250px;
+  width: 250;
+}
+
+.goat img {
+  height: 100%;
+  width: auto;
+}
+
+.goat img:hover {
+  transform: rotate(180deg);
+}
+
+.cow {
+  background-color: #9edc9a;
+  border: 10px dashed #4b3a2a;
+  padding: 50px;
+  margin: -825px 5px 200px 0px;
+  height: 250px;
+  width: 250;
+}
+
+.cow img {
+  height: 100%;
+  width: auto;
+}
+
+.cow img:hover {
+  transform: rotate(1500deg);
+}
+
+.deer {
+  background-color: #9edc9a;
+  border: 10px dashed #4b3a2a;
+  padding: 50px;
+  margin: -300px 100px 0px 0px;
+  height: 250px;
+  width: 250;
+}
+
+.deer img {
+  height: 100%;
+  width: auto;
+}
+
+.deer img:hover {
+  transform: rotate(-1500deg);
+}
+
+.giraffe {
+  background-color: #9edc9a;
+  border: 10px dashed #4b3a2a;
+  padding: 50px;
+  margin: 100px 0px 75px 75px;
+  height: 250px;
+  width: 250;
+}
+
+.giraffe img {
+  height: 100%;
+  width: auto;
+}
+
+.giraffe img:hover {
+  transform: rotate(-90deg);
+}
+
+.rule-box {
+  background-color: rgba(23, 67, 88, 0.33);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  top: +10px;
+  left: +10px;
+  height: 85%;
+  width: 80%;
+}
+.rules {
+  background-color: #bfd0f7;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  height: 350px;
+  width: 250px;
+}
+
+.thanks {
+  background-color: rgba(23, 67, 88, 0.33);
+  color: white;
+  border: 20px groove #bfd0f7;
+  font-size: 15px;
+  text-align: center;
+  margin: -130px -50px 0px 0px;
+  padding: 20px;
+  height: 100px;
+  width: 200px;
+  right: 1px;
+  border-radius: 10px 0px 0px 10px;
+  float: right;
+}

@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  background-image: url("/pizza-2/img/pizza-bkgrnd.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+body {
+  padding: 15px;
+  margin: 40px;
+}
+
+nav ul li a,
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -40px;
+  margin-top: -50px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+li {
+  border: whitesmoke;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+nav ul li a:hover {
+  background-color: purple;
+  color: white;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin-top: -20px;
+  padding: 5px;
+  font-size: 25px;
+  text-align: left;
+  color: red;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: green;
+}
+
+p {
+  margin: 10px;
+}
+
+.main-nav {
+  margin: 10px;
+}
+
+.main-content {
+  padding: 5px;
+  text-align: justify;
+}
+
+/****** Home Page Styling ******/
+.home-title h1 {
+  font-size: 60px;
+  text-align: center;
+  color: green;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-top: 0px;
+}
+
+.home-title marquee {
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.pizza-pics {
+  height: 150px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.pizza-pics img {
+  height: 100%;
+  width: 100%;
+  margin-left: 95px;
+  padding-left: 10px;
+}
+
+/****** Contact Page Styling ******/
+.contact {
+  margin-top: 25px;
+}
+
+.contact-p {
+  display: flex;
+  align-items: left;
+}
+
+.contact-p2 {
+  display: flex;
+  align-items: left;
+}
+
+.contact-form {
+  float: left;
+  padding: 5px 10px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.contact-form h3 {
+  font-size: 20px;
+}
+
+.contact-form form input {
+  height: 15px;
+  width: 100;
+}
+
+.contact-form form textarea {
+  height: 30px;
+  width: 300px;
+}
+
+.pizza-love {
+  height: 270px;
+  width: 320px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -40px;
+}
+
+.pizza-love img {
+  height: 100%;
+  width: 100%;
+}
+
+/****** About Page Styling *******/
+.bomb-diggity {
+  margin-top: -70px;
+  margin-right: 50px;
+  height: 150px;
+  width: 150px;
+  float: right;
+}
+.bomb-diggity img {
+  height: 100%;
+  width: 100%;
+}
+
+.about {
+  clear: right;
+  border: 2px solid whitesmoke;
+}
+
+.about-p {
+  width: 900px;
+  margin-top: -90px;
+  margin-bottom: 15px;
+}
+
+.pizza-about {
+  display: flex;
+  justify-content: center;
+}
+
+.pizza-about img {
+  width: 500px;
+  height: 200px;
+}
+
+/****** Order Page Styling ******/
+
+.order-p {
+  text-align: justify;
+}
+
+.pizza-i {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.pizza-i img {
+  height: 250px;
+  width: 375px;
+}
+
+h2 {
+  color: green;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.main form input {
+  margin: 5px;
+  font-size: 8px;
+}
