@@ -6,7 +6,7 @@
 }
 
 html {
-  background-image: url("/pizza-2/img/pizza-bkgrnd.jpg");
+  background-image: url("https://micah-rose.github.io/rosegoldwebdesign/pizza-2/img/pizza-bkgrnd.jpg");
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -94,6 +94,7 @@ p {
   height: 150px;
   width: 250px;
   display: flex;
+  margin-left: 150px;
   align-items: center;
 }
 
