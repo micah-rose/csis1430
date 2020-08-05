@@ -4,7 +4,7 @@
 }
 
 html {
-  background-image: url("/guess/img/guess-bkgrnd.jpg");
+  background-image: url("https://micah-rose.github.io/rosegoldwebdesign/guess/img/guess-bkgrnd.jpg");
   background-size: cover;
   font-family: "Indie Flower", cursive;
 }

@@ -4,7 +4,7 @@
 }
 
 html {
-  background-image: url("/tic-tac-toe/img/tic-tac-bkgrnd.png");
+  background-image: url("https://micah-rose.github.io/rosegoldwebdesign/tic-tac-toe/img/tic-tac-bkgrnd.png");
   background-size: cover;
   font-family: "Indie Flower", cursive;
 }
